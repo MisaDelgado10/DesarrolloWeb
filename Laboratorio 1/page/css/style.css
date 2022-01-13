@@ -1,3 +1,44 @@
 h1 {
-    color: red;
+    color: blue;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+}
+address{
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-color: black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+body{
+    background-color: #7aa39a;
+}
+.resume-section{
+    display: flex;
+    flex-flow: row wrap;
+}
+footer {
+    margin-top: 10px;
+    background-color: #989da6 ;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 4px;
+    display: flex;
+    flex-flow: row-wrap;
+}
+.footer-links{
+    display: flex;
+    margin-right: 5px;
+    flex-flow: row-wrap;
+}
+#flex-item{
+    padding-right: 10px;
+    margin: 5px;
 }
