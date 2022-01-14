@@ -53,3 +53,68 @@ header{
   justify-content: space-evenly;
   list-style-type: none
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .product{
+    text-align:start;
+    margin-top: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .social{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .hamburger{
+    visibility: hidden;
+  }
+
+  
+  .menu{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    list-style-type: none;
+  }
+
+  li{
+    padding-right: 30px;
+  }
+  
+  .product{
+    text-align: start;
+    width: 100%;
+    margin: 20px;;
+  }
+
+  .social{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    justify-content: space-around;
+  }
+}
